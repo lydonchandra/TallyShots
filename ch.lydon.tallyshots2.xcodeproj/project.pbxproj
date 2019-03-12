@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6926EC22237FB4100AD97CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EC12237FB4100AD97CB /* AppDelegate.swift */; };
+		F6926EC42237FB4100AD97CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EC32237FB4100AD97CB /* ViewController.swift */; };
+		F6926EC72237FB4100AD97CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6926EC52237FB4100AD97CB /* Main.storyboard */; };
+		F6926EC92237FB4A00AD97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6926EC82237FB4A00AD97CB /* Assets.xcassets */; };
+		F6926ECC2237FB4A00AD97CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6926ECA2237FB4A00AD97CB /* LaunchScreen.storyboard */; };
+		F6926ED72237FB4B00AD97CB /* ch_lydon_tallyshots2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926ED62237FB4B00AD97CB /* ch_lydon_tallyshots2Tests.swift */; };
+		F6926EE22237FB4B00AD97CB /* ch_lydon_tallyshots2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EE12237FB4B00AD97CB /* ch_lydon_tallyshots2UITests.swift */; };
+		F6926EE72237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F6926EE62237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App.app */; };
+		F6926EED2237FB4C00AD97CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6926EEB2237FB4C00AD97CB /* Interface.storyboard */; };
+		F6926EEF2237FB4D00AD97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6926EEE2237FB4D00AD97CB /* Assets.xcassets */; };
+		F6926EF62237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F6926EF52237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F6926EFB2237FB4E00AD97CB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EFA2237FB4E00AD97CB /* InterfaceController.swift */; };
+		F6926EFD2237FB4E00AD97CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EFC2237FB4E00AD97CB /* ExtensionDelegate.swift */; };
+		F6926EFF2237FB4E00AD97CB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EFE2237FB4E00AD97CB /* NotificationController.swift */; };
+		F6926F012237FB4E00AD97CB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926F002237FB4E00AD97CB /* ComplicationController.swift */; };
+		F6926F032237FB4F00AD97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6926F022237FB4F00AD97CB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6926ED32237FB4B00AD97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6926EB62237FB4000AD97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6926EBD2237FB4100AD97CB;
+			remoteInfo = ch.lydon.tallyshots2;
+		};
+		F6926EDE2237FB4B00AD97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6926EB62237FB4000AD97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6926EBD2237FB4100AD97CB;
+			remoteInfo = ch.lydon.tallyshots2;
+		};
+		F6926EE82237FB4B00AD97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6926EB62237FB4000AD97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6926EE52237FB4B00AD97CB;
+			remoteInfo = "ch.lydon.tallyshots2 WatchKit App";
+		};
+		F6926EF72237FB4E00AD97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6926EB62237FB4000AD97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6926EF42237FB4E00AD97CB;
+			remoteInfo = "ch.lydon.tallyshots2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6926F0B2237FB4F00AD97CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F6926EF62237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926F0F2237FB4F00AD97CB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F6926EE72237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F6926EBE2237FB4100AD97CB /* ch.lydon.tallyshots2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch.lydon.tallyshots2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6926EC12237FB4100AD97CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6926EC32237FB4100AD97CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6926EC62237FB4100AD97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6926EC82237FB4A00AD97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6926ECB2237FB4A00AD97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6926ECD2237FB4A00AD97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6926ED22237FB4B00AD97CB /* ch.lydon.tallyshots2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch.lydon.tallyshots2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6926ED62237FB4B00AD97CB /* ch_lydon_tallyshots2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch_lydon_tallyshots2Tests.swift; sourceTree = "<group>"; };
+		F6926ED82237FB4B00AD97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6926EDD2237FB4B00AD97CB /* ch.lydon.tallyshots2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch.lydon.tallyshots2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6926EE12237FB4B00AD97CB /* ch_lydon_tallyshots2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch_lydon_tallyshots2UITests.swift; sourceTree = "<group>"; };
+		F6926EE32237FB4B00AD97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6926EE62237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ch.lydon.tallyshots2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6926EEC2237FB4C00AD97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F6926EEE2237FB4D00AD97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6926EF02237FB4D00AD97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6926EF52237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ch.lydon.tallyshots2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6926EFA2237FB4E00AD97CB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F6926EFC2237FB4E00AD97CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F6926EFE2237FB4E00AD97CB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F6926F002237FB4E00AD97CB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F6926F022237FB4F00AD97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6926F042237FB4F00AD97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6926F052237FB4F00AD97CB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6926EBB2237FB4100AD97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926ECF2237FB4B00AD97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926EDA2237FB4B00AD97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926EF22237FB4E00AD97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6926EB52237FB4000AD97CB = {
+			isa = PBXGroup;
+			children = (
+				F6926EC02237FB4100AD97CB /* ch.lydon.tallyshots2 */,
+				F6926ED52237FB4B00AD97CB /* ch.lydon.tallyshots2Tests */,
+				F6926EE02237FB4B00AD97CB /* ch.lydon.tallyshots2UITests */,
+				F6926EEA2237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App */,
+				F6926EF92237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension */,
+				F6926EBF2237FB4100AD97CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6926EBF2237FB4100AD97CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6926EBE2237FB4100AD97CB /* ch.lydon.tallyshots2.app */,
+				F6926ED22237FB4B00AD97CB /* ch.lydon.tallyshots2Tests.xctest */,
+				F6926EDD2237FB4B00AD97CB /* ch.lydon.tallyshots2UITests.xctest */,
+				F6926EE62237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App.app */,
+				F6926EF52237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6926EC02237FB4100AD97CB /* ch.lydon.tallyshots2 */ = {
+			isa = PBXGroup;
+			children = (
+				F6926EC12237FB4100AD97CB /* AppDelegate.swift */,
+				F6926EC32237FB4100AD97CB /* ViewController.swift */,
+				F6926EC52237FB4100AD97CB /* Main.storyboard */,
+				F6926EC82237FB4A00AD97CB /* Assets.xcassets */,
+				F6926ECA2237FB4A00AD97CB /* LaunchScreen.storyboard */,
+				F6926ECD2237FB4A00AD97CB /* Info.plist */,
+			);
+			path = ch.lydon.tallyshots2;
+			sourceTree = "<group>";
+		};
+		F6926ED52237FB4B00AD97CB /* ch.lydon.tallyshots2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6926ED62237FB4B00AD97CB /* ch_lydon_tallyshots2Tests.swift */,
+				F6926ED82237FB4B00AD97CB /* Info.plist */,
+			);
+			path = ch.lydon.tallyshots2Tests;
+			sourceTree = "<group>";
+		};
+		F6926EE02237FB4B00AD97CB /* ch.lydon.tallyshots2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6926EE12237FB4B00AD97CB /* ch_lydon_tallyshots2UITests.swift */,
+				F6926EE32237FB4B00AD97CB /* Info.plist */,
+			);
+			path = ch.lydon.tallyshots2UITests;
+			sourceTree = "<group>";
+		};
+		F6926EEA2237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F6926EEB2237FB4C00AD97CB /* Interface.storyboard */,
+				F6926EEE2237FB4D00AD97CB /* Assets.xcassets */,
+				F6926EF02237FB4D00AD97CB /* Info.plist */,
+			);
+			path = "ch.lydon.tallyshots2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		F6926EF92237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F6926EFA2237FB4E00AD97CB /* InterfaceController.swift */,
+				F6926EFC2237FB4E00AD97CB /* ExtensionDelegate.swift */,
+				F6926EFE2237FB4E00AD97CB /* NotificationController.swift */,
+				F6926F002237FB4E00AD97CB /* ComplicationController.swift */,
+				F6926F022237FB4F00AD97CB /* Assets.xcassets */,
+				F6926F042237FB4F00AD97CB /* Info.plist */,
+				F6926F052237FB4F00AD97CB /* PushNotificationPayload.apns */,
+			);
+			path = "ch.lydon.tallyshots2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6926EBD2237FB4100AD97CB /* ch.lydon.tallyshots2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6926F102237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2" */;
+			buildPhases = (
+				F6926EBA2237FB4100AD97CB /* Sources */,
+				F6926EBB2237FB4100AD97CB /* Frameworks */,
+				F6926EBC2237FB4100AD97CB /* Resources */,
+				F6926F0F2237FB4F00AD97CB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6926EE92237FB4B00AD97CB /* PBXTargetDependency */,
+			);
+			name = ch.lydon.tallyshots2;
+			productName = ch.lydon.tallyshots2;
+			productReference = F6926EBE2237FB4100AD97CB /* ch.lydon.tallyshots2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6926ED12237FB4B00AD97CB /* ch.lydon.tallyshots2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6926F132237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2Tests" */;
+			buildPhases = (
+				F6926ECE2237FB4B00AD97CB /* Sources */,
+				F6926ECF2237FB4B00AD97CB /* Frameworks */,
+				F6926ED02237FB4B00AD97CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6926ED42237FB4B00AD97CB /* PBXTargetDependency */,
+			);
+			name = ch.lydon.tallyshots2Tests;
+			productName = ch.lydon.tallyshots2Tests;
+			productReference = F6926ED22237FB4B00AD97CB /* ch.lydon.tallyshots2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6926EDC2237FB4B00AD97CB /* ch.lydon.tallyshots2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6926F162237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2UITests" */;
+			buildPhases = (
+				F6926ED92237FB4B00AD97CB /* Sources */,
+				F6926EDA2237FB4B00AD97CB /* Frameworks */,
+				F6926EDB2237FB4B00AD97CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6926EDF2237FB4B00AD97CB /* PBXTargetDependency */,
+			);
+			name = ch.lydon.tallyshots2UITests;
+			productName = ch.lydon.tallyshots2UITests;
+			productReference = F6926EDD2237FB4B00AD97CB /* ch.lydon.tallyshots2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F6926EE52237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6926F0C2237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2 WatchKit App" */;
+			buildPhases = (
+				F6926EE42237FB4B00AD97CB /* Resources */,
+				F6926F0B2237FB4F00AD97CB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6926EF82237FB4E00AD97CB /* PBXTargetDependency */,
+			);
+			name = "ch.lydon.tallyshots2 WatchKit App";
+			productName = "ch.lydon.tallyshots2 WatchKit App";
+			productReference = F6926EE62237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F6926EF42237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6926F082237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2 WatchKit Extension" */;
+			buildPhases = (
+				F6926EF12237FB4E00AD97CB /* Sources */,
+				F6926EF22237FB4E00AD97CB /* Frameworks */,
+				F6926EF32237FB4E00AD97CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ch.lydon.tallyshots2 WatchKit Extension";
+			productName = "ch.lydon.tallyshots2 WatchKit Extension";
+			productReference = F6926EF52237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6926EB62237FB4000AD97CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Don;
+				TargetAttributes = {
+					F6926EBD2237FB4100AD97CB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F6926ED12237FB4B00AD97CB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F6926EBD2237FB4100AD97CB;
+					};
+					F6926EDC2237FB4B00AD97CB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F6926EBD2237FB4100AD97CB;
+					};
+					F6926EE52237FB4B00AD97CB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F6926EF42237FB4E00AD97CB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F6926EB92237FB4000AD97CB /* Build configuration list for PBXProject "ch.lydon.tallyshots2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6926EB52237FB4000AD97CB;
+			productRefGroup = F6926EBF2237FB4100AD97CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6926EBD2237FB4100AD97CB /* ch.lydon.tallyshots2 */,
+				F6926ED12237FB4B00AD97CB /* ch.lydon.tallyshots2Tests */,
+				F6926EDC2237FB4B00AD97CB /* ch.lydon.tallyshots2UITests */,
+				F6926EE52237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App */,
+				F6926EF42237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6926EBC2237FB4100AD97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6926ECC2237FB4A00AD97CB /* LaunchScreen.storyboard in Resources */,
+				F6926EC92237FB4A00AD97CB /* Assets.xcassets in Resources */,
+				F6926EC72237FB4100AD97CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926ED02237FB4B00AD97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926EDB2237FB4B00AD97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926EE42237FB4B00AD97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6926EEF2237FB4D00AD97CB /* Assets.xcassets in Resources */,
+				F6926EED2237FB4C00AD97CB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926EF32237FB4E00AD97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6926F032237FB4F00AD97CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6926EBA2237FB4100AD97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6926EC42237FB4100AD97CB /* ViewController.swift in Sources */,
+				F6926EC22237FB4100AD97CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926ECE2237FB4B00AD97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6926ED72237FB4B00AD97CB /* ch_lydon_tallyshots2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926ED92237FB4B00AD97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6926EE22237FB4B00AD97CB /* ch_lydon_tallyshots2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6926EF12237FB4E00AD97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6926EFF2237FB4E00AD97CB /* NotificationController.swift in Sources */,
+				F6926F012237FB4E00AD97CB /* ComplicationController.swift in Sources */,
+				F6926EFD2237FB4E00AD97CB /* ExtensionDelegate.swift in Sources */,
+				F6926EFB2237FB4E00AD97CB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6926ED42237FB4B00AD97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6926EBD2237FB4100AD97CB /* ch.lydon.tallyshots2 */;
+			targetProxy = F6926ED32237FB4B00AD97CB /* PBXContainerItemProxy */;
+		};
+		F6926EDF2237FB4B00AD97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6926EBD2237FB4100AD97CB /* ch.lydon.tallyshots2 */;
+			targetProxy = F6926EDE2237FB4B00AD97CB /* PBXContainerItemProxy */;
+		};
+		F6926EE92237FB4B00AD97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6926EE52237FB4B00AD97CB /* ch.lydon.tallyshots2 WatchKit App */;
+			targetProxy = F6926EE82237FB4B00AD97CB /* PBXContainerItemProxy */;
+		};
+		F6926EF82237FB4E00AD97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6926EF42237FB4E00AD97CB /* ch.lydon.tallyshots2 WatchKit Extension */;
+			targetProxy = F6926EF72237FB4E00AD97CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6926EC52237FB4100AD97CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6926EC62237FB4100AD97CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6926ECA2237FB4A00AD97CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6926ECB2237FB4A00AD97CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6926EEB2237FB4C00AD97CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6926EEC2237FB4C00AD97CB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6926F062237FB4F00AD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6926F072237FB4F00AD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6926F092237FB4F00AD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = "ch.lydon.tallyshots2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		F6926F0A2237FB4F00AD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = "ch.lydon.tallyshots2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		F6926F0D2237FB4F00AD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				IBSC_MODULE = ch_lydon_tallyshots2_WatchKit_Extension;
+				INFOPLIST_FILE = "ch.lydon.tallyshots2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		F6926F0E2237FB4F00AD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				IBSC_MODULE = ch_lydon_tallyshots2_WatchKit_Extension;
+				INFOPLIST_FILE = "ch.lydon.tallyshots2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		F6926F112237FB4F00AD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = ch.lydon.tallyshots2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6926F122237FB4F00AD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = ch.lydon.tallyshots2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6926F142237FB4F00AD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = ch.lydon.tallyshots2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ch.lydon.tallyshots2.app/ch.lydon.tallyshots2";
+			};
+			name = Debug;
+		};
+		F6926F152237FB4F00AD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = ch.lydon.tallyshots2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ch.lydon.tallyshots2.app/ch.lydon.tallyshots2";
+			};
+			name = Release;
+		};
+		F6926F172237FB4F00AD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = ch.lydon.tallyshots2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ch.lydon.tallyshots2;
+			};
+			name = Debug;
+		};
+		F6926F182237FB4F00AD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94R5HV3QP5;
+				INFOPLIST_FILE = ch.lydon.tallyshots2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.lydon.ch-lydon-tallyshots2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ch.lydon.tallyshots2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6926EB92237FB4000AD97CB /* Build configuration list for PBXProject "ch.lydon.tallyshots2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6926F062237FB4F00AD97CB /* Debug */,
+				F6926F072237FB4F00AD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6926F082237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6926F092237FB4F00AD97CB /* Debug */,
+				F6926F0A2237FB4F00AD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6926F0C2237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6926F0D2237FB4F00AD97CB /* Debug */,
+				F6926F0E2237FB4F00AD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6926F102237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6926F112237FB4F00AD97CB /* Debug */,
+				F6926F122237FB4F00AD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6926F132237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6926F142237FB4F00AD97CB /* Debug */,
+				F6926F152237FB4F00AD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6926F162237FB4F00AD97CB /* Build configuration list for PBXNativeTarget "ch.lydon.tallyshots2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6926F172237FB4F00AD97CB /* Debug */,
+				F6926F182237FB4F00AD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6926EB62237FB4000AD97CB /* Project object */;
+}
