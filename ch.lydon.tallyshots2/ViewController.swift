@@ -12,9 +12,34 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate;
+        //let entity = NSEntityDescription.entity
+        
+        
+    }
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        if sender.title(for: .normal) == "X" {
+            sender.setTitle("long titleeeeeeeee", for: .normal)
+        }
+        else {
+            sender.setTitle("X", for: .normal)
+        }
     }
 
+    override var shouldAutorotate: Bool {
+        return true
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .all
+    }
+//    
+//    func navigationControllerSupportedInterfaceOrientations(_ navigationController: UINavigationController) -> UIInterfaceOrientationMask {
+//        return .all
+//    }
 
 }
+
 

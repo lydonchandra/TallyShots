@@ -14,32 +14,76 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ch_lydon_tallyshots2_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="136" height="142" alignment="left" id="dWY-n9-0eG">
+                        <group width="136" alignment="left" id="dWY-n9-0eG">
                             <items>
-                                <group width="66" height="141" alignment="left" layout="vertical" id="2QN-oi-CdE">
+                                <group width="66" alignment="left" layout="vertical" id="2QN-oi-CdE">
                                     <items>
-                                        <label alignment="left" text="LEFT" id="XDh-hB-fwC"/>
-                                        <button width="1" height="54" alignment="left" title="HIT" id="LOY-2S-r0q">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </button>
-                                        <button width="1" height="54" alignment="left" title="MISS" id="pVh-cs-aff">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </button>
+                                        <label alignment="left" text="LEFT" id="XDh-hB-fwC">
+                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                        </label>
+                                        <group width="1" alignment="left" layout="vertical" id="zsU-gZ-7E6">
+                                            <items>
+                                                <button width="1" height="54" alignment="left" title="HIT" id="KEX-Nr-n8p">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                                <button width="1" height="54" alignment="left" title="MISS" id="bQE-2c-Lvx">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                            </items>
+                                            <color key="backgroundColor" red="1" green="0.6956285432" blue="0.87867797150000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <edgeInsets key="margins" left="4" right="4" top="4" bottom="4"/>
+                                        </group>
+                                        <group width="1" alignment="left" layout="vertical" id="PUb-Oh-F0Q">
+                                            <items>
+                                                <button width="1" height="54" alignment="left" title="HIT" id="LOY-2S-r0q">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                                <button width="1" height="54" alignment="left" title="MISS" id="pVh-cs-aff">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                            </items>
+                                            <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <edgeInsets key="margins" left="4" right="4" top="4" bottom="4"/>
+                                        </group>
                                     </items>
                                 </group>
-                                <group width="64" height="144" alignment="left" layout="vertical" id="cwu-hC-Bhg">
+                                <group width="64" alignment="left" layout="vertical" id="cwu-hC-Bhg">
                                     <items>
-                                        <label alignment="right" text="RIGHT" textAlignment="right" id="m8W-do-7eG"/>
-                                        <button width="1" height="54" alignment="right" title="HIT" id="FYb-rY-K9V">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </button>
-                                        <button width="1" height="54" alignment="right" title="MISS" id="WHS-jg-1Kf">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </button>
+                                        <label alignment="right" text="RIGHT" textAlignment="right" id="m8W-do-7eG">
+                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                        </label>
+                                        <group width="1" alignment="left" layout="vertical" id="3nt-di-Sbo">
+                                            <items>
+                                                <button width="1" height="54" alignment="right" title="HIT" id="ts9-40-AnH">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                                <button width="1" height="54" alignment="right" title="MISS" id="3wg-cL-rfc">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                            </items>
+                                            <color key="backgroundColor" red="1" green="0.6956285432" blue="0.87867797150000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <edgeInsets key="margins" left="4" right="4" top="4" bottom="4"/>
+                                        </group>
+                                        <group width="1" alignment="left" layout="vertical" id="xJg-xe-X5q">
+                                            <items>
+                                                <button width="1" height="54" alignment="right" title="HIT" id="FYb-rY-K9V">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                                <button width="1" height="54" alignment="right" title="MISS" id="WHS-jg-1Kf">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                            </items>
+                                            <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <edgeInsets key="margins" left="4" right="4" top="4" bottom="4"/>
+                                        </group>
                                     </items>
                                 </group>
                             </items>

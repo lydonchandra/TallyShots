@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F649BC67223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F649BC65223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld */; };
 		F6926EC22237FB4100AD97CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EC12237FB4100AD97CB /* AppDelegate.swift */; };
 		F6926EC42237FB4100AD97CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EC32237FB4100AD97CB /* ViewController.swift */; };
 		F6926EC72237FB4100AD97CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6926EC52237FB4100AD97CB /* Main.storyboard */; };
@@ -82,6 +83,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F649BC66223C1CFB002EF2C6 /* TallyShotModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TallyShotModel.xcdatamodel; sourceTree = "<group>"; };
 		F6926EBE2237FB4100AD97CB /* ch.lydon.tallyshots2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch.lydon.tallyshots2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6926EC12237FB4100AD97CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6926EC32237FB4100AD97CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				F6926EC82237FB4A00AD97CB /* Assets.xcassets */,
 				F6926ECA2237FB4A00AD97CB /* LaunchScreen.storyboard */,
 				F6926ECD2237FB4A00AD97CB /* Info.plist */,
+				F649BC65223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld */,
 			);
 			path = ch.lydon.tallyshots2;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F649BC67223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld in Sources */,
 				F6926EC42237FB4100AD97CB /* ViewController.swift in Sources */,
 				F6926EC22237FB4100AD97CB /* AppDelegate.swift in Sources */,
 			);
@@ -631,7 +635,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -653,7 +657,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -672,7 +676,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -691,7 +695,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -871,6 +875,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F649BC65223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F649BC66223C1CFB002EF2C6 /* TallyShotModel.xcdatamodel */,
+			);
+			currentVersion = F649BC66223C1CFB002EF2C6 /* TallyShotModel.xcdatamodel */;
+			path = TallyShotModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F6926EB62237FB4000AD97CB /* Project object */;
 }
