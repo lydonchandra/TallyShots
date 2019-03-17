@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F649BC67223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F649BC65223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld */; };
+		F649BC67223C1CFB002EF2C6 /* TallyShots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F649BC65223C1CFB002EF2C6 /* TallyShots.xcdatamodeld */; };
 		F6926EC22237FB4100AD97CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EC12237FB4100AD97CB /* AppDelegate.swift */; };
 		F6926EC42237FB4100AD97CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6926EC32237FB4100AD97CB /* ViewController.swift */; };
 		F6926EC72237FB4100AD97CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6926EC52237FB4100AD97CB /* Main.storyboard */; };
@@ -176,7 +176,7 @@
 				F6926EC82237FB4A00AD97CB /* Assets.xcassets */,
 				F6926ECA2237FB4A00AD97CB /* LaunchScreen.storyboard */,
 				F6926ECD2237FB4A00AD97CB /* Info.plist */,
-				F649BC65223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld */,
+				F649BC65223C1CFB002EF2C6 /* TallyShots.xcdatamodeld */,
 			);
 			path = ch.lydon.tallyshots2;
 			sourceTree = "<group>";
@@ -415,7 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F649BC67223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld in Sources */,
+				F649BC67223C1CFB002EF2C6 /* TallyShots.xcdatamodeld in Sources */,
 				F6926EC42237FB4100AD97CB /* ViewController.swift in Sources */,
 				F6926EC22237FB4100AD97CB /* AppDelegate.swift in Sources */,
 			);
@@ -877,13 +877,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F649BC65223C1CFB002EF2C6 /* TallyShotModel.xcdatamodeld */ = {
+		F649BC65223C1CFB002EF2C6 /* TallyShots.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				F649BC66223C1CFB002EF2C6 /* TallyShotModel.xcdatamodel */,
 			);
 			currentVersion = F649BC66223C1CFB002EF2C6 /* TallyShotModel.xcdatamodel */;
-			path = TallyShotModel.xcdatamodeld;
+			path = TallyShots.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
